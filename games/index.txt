@@ -21,6 +21,7 @@ Riddle Transfer
 Rocket Soccar Derby
 Run
 Slope
+Slope 3
 Slow Roads
 Snow Rider 3D
 Space Waves
