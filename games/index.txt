@@ -2,5 +2,6 @@ Crazy Cars 3D
 Fluid Simulation
 Hover Race Drive
 Merge Round Racers
+Paper.io 2
 Polytrack
 Super Mario 64
