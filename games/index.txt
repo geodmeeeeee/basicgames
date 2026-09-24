@@ -6,5 +6,6 @@ Paper.io 2
 Ping Pong Chaos
 Plants VS Zombies
 Polytrack
+Riddle Transfer
 Rocket Soccar Derby
 Super Mario 64
