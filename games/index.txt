@@ -10,6 +10,7 @@ Polytrack
 Riddle Transfer
 Rocket Soccar Derby
 Run
+Slope
 Slow Roads
 Subway Surfers Beijing
 Super Liquid Soccar
