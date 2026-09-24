@@ -11,6 +11,7 @@ Paper.io 2
 Ping Pong Chaos
 Plants VS Zombies
 Polytrack
+Ragdoll Archers
 Riddle Transfer
 Rocket Soccar Derby
 Run
