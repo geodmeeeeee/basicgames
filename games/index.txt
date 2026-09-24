@@ -3,5 +3,6 @@ Fluid Simulation
 Hover Race Drive
 Merge Round Racers
 Paper.io 2
+Plants VS Zombies
 Polytrack
 Super Mario 64
