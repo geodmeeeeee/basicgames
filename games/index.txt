@@ -5,6 +5,7 @@ Bow Masters
 Crazy Cars 3D
 Choppy Orc
 Drive Mad
+Egalercraft 1.12.2
 Fluid Simulation
 Granny
 Hover Race Drive
