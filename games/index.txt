@@ -13,6 +13,7 @@ Choppy Orc
 Drive Mad
 Egalercraft 1.12.2
 Fluid Simulation
+Fruit Ninja
 Granny
 Hover Race Drive
 Merge Round Racers
