@@ -6,37 +6,49 @@
   --text: #edf6ff;
   --muted: #a9bad1;
   --accent: #7dd3fc;
+  --accent-strong: #38bdf8;
 }
 
 * {
   box-sizing: border-box;
 }
 
+html {
+  background: var(--bg);
+  height: 100%;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
+  min-height: 100dvh;
   display: grid;
   place-items: center;
   background: linear-gradient(180deg, #0f172a 0%, #111827 100%);
   color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
+  -webkit-overflow-scrolling: touch;
 }
 
 .shell {
   width: min(560px, calc(100% - 28px));
+  padding: 24px 0;
 }
 
 #searchInput {
   width: 100%;
   margin-bottom: 14px;
   padding: 14px 16px;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  background: rgba(17, 28, 43, 0.9);
+  border: 1px solid rgba(125, 211, 252, 0.2);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(17, 28, 43, 0.96), rgba(15, 23, 42, 0.92));
   color: var(--text);
   font-size: 1rem;
   outline: none;
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
 }
 
 #searchInput::placeholder {
@@ -44,8 +56,9 @@ body {
 }
 
 #searchInput:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(125, 211, 252, 0.12), 0 8px 18px rgba(0, 0, 0, 0.2);
+  border-color: rgba(125, 211, 252, 0.8);
+  box-shadow: 0 0 0 3px rgba(125, 211, 252, 0.14), 0 12px 28px rgba(15, 23, 42, 0.5);
+  transform: translateY(-1px);
 }
 
 .game-list {
@@ -57,15 +70,16 @@ body {
 }
 
 .game-item {
-  background: var(--panel);
   border: 1px solid var(--border);
-  border-radius: 12px;
-  transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(17, 28, 43, 0.96), rgba(11, 18, 30, 0.94));
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.24);
+  transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
 }
 
 .game-item:hover {
-  background: var(--panel-hover);
-  border-color: #2f465d;
+  border-color: rgba(125, 211, 252, 0.5);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.32);
   transform: translateY(-1px);
 }
 
@@ -75,4 +89,10 @@ body {
   color: var(--text);
   text-decoration: none;
   font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.game-item a:hover,
+.game-item a:focus-visible {
+  color: #f8fbff;
 }
