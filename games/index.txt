@@ -1,4 +1,5 @@
 12 Mini Battles
+2048
 Bad Ice Cream 2
 Bad Piggies
 Bow Masters
